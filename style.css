@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Kalam&family=Lato:ital,wght@1,300&family=Montserrat:ital@0;1&family=Source+Sans+Pro:ital@1&family=Work+Sans:ital@1&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#7c3aed;
+}
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+input,
+label{
+    display: block;
+    font-size: larger;
+    margin: 2rem 0px;
+    font-weight: 600;
+}
+input{
+    font-size: large;
+    display: block;
+    outline:#fff;
+    padding: 0.6rem 1rem;
+    margin:1rem auto;
+    border:2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 325px;
+}
+#submit-btn{
+    background-color: var(--primary-color);
+    border: none;
+    color:#fff;
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    border-width: medium;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+}
+#submit-btn:hover{
+    background-color: rgb(208, 221, 25);
+    color: black;
+}
+#output-box{
+    text-align: center;
+    margin: 2rem 0 ;
+     font-size: larger;
+     font-weight: 600;
+
+}
