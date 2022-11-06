@@ -19,11 +19,11 @@ function calulateprofitandloss(initial,quantity,current,) {
  if(initial>current){
     var loss =(initial-current)*quantity;
     var losspercentage =(loss/initial)*100;
-    showoutputbox(`Hey the loss is ${loss} and the percentage is ${losspercentage}%`);
+    showoutputbox(`Hey the loss is ${loss} and the percent is ${losspercentage}%`);
  }else if (current>initial){
     var profit =(current-initial)*quantity;
     var profitpercentage =(profit/initial)*100;
-   showoutputbox(`Hey the profit is ${profit} and the percentage is ${profitpercentage}%`);
+   showoutputbox(`Hey the profit is ${profit} and the percent is ${profitpercentage}%`);
 
  }else {
   showoutputbox(`No pain No gain`);
